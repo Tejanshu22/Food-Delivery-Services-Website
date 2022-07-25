@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet"  media="screen and (max-width: 1060px)" href="CSS/phone.css">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    #contact::before{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    background: url("https://www.shrijigreen.com/wp-content/uploads/2021/09/bg-header-01.jpg")no-repeat center center/cover;
+    opacity: 0.5;
+    height: 80%;
+    width: 100%;
+    }
+    footer{
+        background-color: black;
+        color: aliceblue;
+    }
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+    }
+    #contact-box input,
+    #contact-box textarea{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 10px;
+        font-size: 1.1rem;
+    }
+    #contact-box form{
+        width: 40%;
+    }
+    #contact-box label{
+        font-size: 1.28rem
+    }
+</style>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnC6DhoDXqPovs0RpPiAXuxSaM7fQO7oGHBQ&usqp=CAU"
+                alt="Onlinefood.com">
+        </div>
+        <ul>
+            <li class="item"><a href="">Home</a> </li>
+            <li class="item"><a href="">Services</a> </li>
+            <li class="item"><a href="">About Us</a> </li>
+            <li class="item"><a href="">Contact Us</a> </li>
+        </ul>
+        <div id="search">
+            <input type="text" placeholder="Search Here">
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to OnlineFood</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, tenetur recusandae possimus quas,
+            debitis, ipsam natus quisquam quod en</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt repudiandae quia sapiente
+            aliquam! Quas inventore qui!</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary centre">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg" alt="Image">
+                <h2 class="h_seconadry centre">Pizza</h2>
+                <p class="centre">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iusto, suscipit voluptas, ad quibusdam totam vero ea placeat consectetur molestias voluptatibus beatae quos porro dignissimos est laudantium sed? Doloribus dolorem incidunt ratione nam voluptatum!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos optio debitis cupiditate tenetur voluptates vel nesciunt beatae aut nobis ullam recusandae eos omnis reiciendis magni maiores, autem laborum at? Vero?
+                </p>
+            </div>
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="Image">
+                <h2 class="h_seconadry centre">Burger</h2>
+                <p class="centre">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iusto, suscipit voluptas, ad quibusdam totam vero ea placeat consectetur molestias voluptatibus beatae quos porro dignissimos est laudantium sed? Doloribus dolorem incidunt ratione nam voluptatum!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem quas enim est, perferendis laborum earum quo. Molestiae autem eos dolorum.
+                </p>
+            </div>
+            <div class="box">
+                <img src="https://st3.depositphotos.com/16173130/18766/i/1600/depositphotos_187664618-stock-photo-rajasthani-maharaja-thaali-pune.jpg" alt="Image">
+                <h2 class="h_seconadry centre">Thali</h2>
+                <p class="centre">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iusto, suscipit voluptas, ad quibusdam totam vero ea placeat consectetur molestias voluptatibus beatae quos porro dignissimos est laudantium sed? Doloribus dolorem incidunt ratione nam voluptatum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet, iure possimus adipisci excepturi quasi molestias a ipsum sint doloremque. Sint, adipisci iure.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients-section">
+        <h1 class="h-primary centre">Our clients</h1>
+        <div id="clients">
+            <div class="class-items">
+                <img src="https://www.the-sun.com/wp-content/uploads/sites/6/2022/01/kc-google-watching-comp.jpg" alt="images">
+            </div>
+            <div class="class-items">
+                <img src="data:image/png;base64,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" alt="images">
+            </div>
+            <div class="class-items">
+                <img src="data:image/png;base64,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" alt="images">
+            </div>
+            <div class="class-items">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/1200px-Swiggy_logo.svg.png" alt="images">
+            </div>
+            <div class="class-items">
+                <img src="https://image.shutterstock.com/z/stock-vector-food-finder-app-logo-design-vector-template-1328492696.jpg" alt="images">
+            </div>
+            <div class="class-items">
+                <img src="https://i.pinimg.com/originals/b1/fc/bb/b1fcbbfd4fb8116c714ef352bb39bbaf.jpg" alt="images">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary centre">Contact Us</h1>
+        <div id="contact-box">
+            <form action="no.php">
+                <div class="form-group">
+                    <label for="name">name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">phone</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                   <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+            </form>
+        </div>
+    </section> 
+    <footer>
+        <div class="centre">
+            Copyright &copy; www.OnlineFood.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

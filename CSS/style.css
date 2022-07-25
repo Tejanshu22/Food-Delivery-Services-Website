@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    align-items: center;
+    width: 100%;
+}
+
+#navbar::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    background-color: rgb(215, 83, 83);
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar ul {
+    display: flex;
+    background-color: floralwhite;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+#navbar li a {
+    font-size: 20px;
+    font-weight: 550;
+    color: darkred;
+    display: block;
+    margin: 3px 3px;
+    padding: 4px 50px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    border-radius: 14px;
+    background-color: beige;
+    color: indianred;
+}
+
+#logo {
+    margin: 3px 3px;
+    padding: 4px 4px;
+}
+
+#logo img {
+    height: 120px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#search input {
+    width: 200px;
+    padding: 3px 5px;
+    border-radius: 14px;
+    font-size: 15px;
+    margin-right: 15px;
+    color: rgb(131, 36, 36);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 469px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url("https://wallpapercave.com/wp/wp9550758.jpg") no-repeat center center/cover;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.btn {
+    width: 100px;
+    margin: 41px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: aliceblue;
+    background-color: black;
+}
+
+#home h1 {
+    color: rgb(63, 21, 21);
+    text-align: center;
+}
+
+.h-primary {
+    margin-top: 150px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#home p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.centre {
+    text-align: center;
+}
+
+.box img {
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+#services {
+    display: flex;
+}
+
+.box {
+    border: 2px solid brown;
+    margin: 3px 20px;
+    padding: 4px 20px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.h-primary {
+    margin-top: 160px;
+}
+
+#clients-section {
+    height: 300px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.class-items img {
+    height: 200px;
+    width: 200px;
+    margin: 3px 30px;
+}
+
+#clients-section::before {
+    content: "";
+    position: absolute;
+    background: url("https://cdn.searchenginejournal.com/wp-content/uploads/2017/10/new-clients.png");
+    height: 50%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.services-container::before {
+    content: "";
+    position: absolute;
+    background: url("https://www.wallpaperup.com/uploads/wallpapers/2014/11/10/512857/f20929d0b9de4ac8ef972a6ce6c643cd-700.jpg")no-repeat center center/cover;
+    height: 70%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.services-container {
+    height: 440px;
+}
